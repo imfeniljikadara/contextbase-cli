@@ -1,6 +1,6 @@
 {
   "name": "contextbase-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command Line Interface (cli) for interacting with the ContextBase MCP API.",
   "main": "dist/index.js",
   "bin": {
