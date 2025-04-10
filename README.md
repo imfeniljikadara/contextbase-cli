@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/contextbase-cli.svg)](https://www.npmjs.com/package/contextbase-cli)
+
 # ContextBase CLI
 
 A powerful Command Line Interface for interacting with the ContextBase MCP API.
