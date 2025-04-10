@@ -131,4 +131,4 @@ npm run dev
 
 ## License
 
-MIT © [Fenil Jikadara](https://github.com/imfeniljikadara)
+MIT
