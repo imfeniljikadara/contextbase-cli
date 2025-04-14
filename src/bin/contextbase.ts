@@ -38,6 +38,7 @@ program
 program
   .command("get")
   .argument("<key>")
+  .option("--json", "Output as JSON")
   .description("Get a memory key")
   .action(getMemory);
 
@@ -49,12 +50,14 @@ program
 
 program
   .command("list")
+  .option("--json", "Output as JSON")
   .description("List all memory keys")
   .action(listMemory);
 
 program
   .command("search")
   .argument("<query>")
+  .option("--json", "Output as JSON")
   .description("Search memory keys")
   .action(searchMemory);
 

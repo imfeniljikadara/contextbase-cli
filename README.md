@@ -59,6 +59,12 @@ Retrieve a stored value by its key:
 contextbase get <key>
 ```
 
+You can also get the output in JSON format:
+
+```bash
+contextbase get <key> --json
+```
+
 Example:
 ```bash
 contextbase get user.preferences
@@ -80,12 +86,24 @@ View all your stored memory keys:
 contextbase list
 ```
 
+You can also get the output in JSON format:
+
+```bash
+contextbase list --json
+```
+
 ### Search Memory Keys
 
 Find keys matching a specific query:
 
 ```bash
 contextbase search <query>
+```
+
+You can also get the search results in JSON format:
+
+```bash
+contextbase search <query> --json
 ```
 
 ## Examples
@@ -100,11 +118,20 @@ contextbase set session.token 'abc123xyz' --ttl 3600
 # Retrieve user preferences
 contextbase get user.preferences
 
+# Retrieve user preferences in JSON format
+contextbase get user.preferences --json
+
 # Search for all user-related keys
 contextbase search user
 
+# Search for all user-related keys in JSON format
+contextbase search user --json
+
 # List all stored keys
 contextbase list
+
+# List all stored keys in JSON format
+contextbase list --json
 
 # Remove a key
 contextbase delete session.token
@@ -126,7 +153,7 @@ npm install
 npm run build
 
 # Run in development mode
-npm run dev
+npm link
 ```
 
 ## License
