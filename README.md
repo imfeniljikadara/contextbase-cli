@@ -2,7 +2,7 @@
 
 # ContextBase CLI
 
-A powerful Command Line Interface for interacting with the ContextBase MCP API.
+A powerful Command Line Interface for interacting with the ContextBase MCP API. 
 
 ## Overview
 
